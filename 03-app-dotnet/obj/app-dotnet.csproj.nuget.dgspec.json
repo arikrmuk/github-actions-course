@@ -17,7 +17,7 @@
           "C:\\Users\\hodellai\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "https://pkgs.dev.azure.com/houssemdellai/MyLibrary-Nuget/_packaging/MyLibrary-Nuget-02/nuget/v3/index.json": {},
@@ -25,23 +25,23 @@
           "https://pkgs.dev.azure.com/houssemdellai/cardif-nuget/_packaging/cardif01/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
         "warningProperties": {
           "warnAsError": [
-            "NU1605"
+            "NU1805"
           ]
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
-            "net461",
-            "net462",
+            "net481",
+            "net482",
             "net47",
             "net471",
             "net472",
@@ -57,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

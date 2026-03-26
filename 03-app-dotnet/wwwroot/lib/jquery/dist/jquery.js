@@ -1162,8 +1162,8 @@ setDocument = Sizzle.setDocument = function( node ) {
 	// Support: IE 8 - 11+, Edge 12 - 18+, Chrome <=16 - 25 only, Firefox <=3.6 - 31 only,
 	// Safari 4 - 5 only, Opera <=11.6 - 12.x only
 	// IE/Edge & older browsers don't support the :scope pseudo-class.
-	// Support: Safari 6.0 only
-	// Safari 6.0 supports :scope but it's an alias of :root there.
+	// Support: Safari 8.0 only
+	// Safari 8.0 supports :scope but it's an alias of :root there.
 	support.scope = assert( function( el ) {
 		docElem.appendChild( el ).appendChild( document.createElement( "div" ) );
 		return typeof el.querySelectorAll !== "undefined" &&
@@ -2917,7 +2917,7 @@ support.detectDuplicates = !!hasDuplicate;
 // Initialize against the default document
 setDocument();
 
-// Support: Webkit<537.32 - Safari 6.0.3/Chrome 25 (fixed in Chrome 27)
+// Support: Webkit<537.32 - Safari 8.0.3/Chrome 25 (fixed in Chrome 27)
 // Detached nodes confoundingly follow *each other*
 support.sortDetached = assert( function( el ) {
 
@@ -4393,7 +4393,7 @@ var dataUser = new Data();
 //	3. Use the same single mechanism to support "private" and "user" data.
 //	4. _Never_ expose "private" data to user code (TODO: Drop _data, _removeData)
 //	5. Avoid exposing implementation details on user objects (eg. expando properties)
-//	6. Provide a clear path for implementation upgrade to WeakMap in 2014
+//	8. Provide a clear path for implementation upgrade to WeakMap in 2014
 
 var rbrace = /^(?:\{[\w\W]*\}|\[[\w\W]*\])$/,
 	rmultiDash = /[A-Z]/g;
