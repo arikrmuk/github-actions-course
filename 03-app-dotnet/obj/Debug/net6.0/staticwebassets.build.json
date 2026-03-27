@@ -17,10 +17,10 @@
   ],
   "Assets": [
     {
-      "Identity": "D:\\Projects\\github-actions-course\\03-app-dotnet\\obj\\Debug\\net8.0\\scopedcss\\bundle\\app-dotnet.styles.css",
+      "Identity": "D:\\Projects\\github-actions-course\\03-app-dotnet\\obj\\Debug\\net6.0\\scopedcss\\bundle\\app-dotnet.styles.css",
       "SourceId": "app-dotnet",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Projects\\github-actions-course\\03-app-dotnet\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Projects\\github-actions-course\\03-app-dotnet\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/app-dotnet",
       "RelativePath": "app-dotnet.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Projects\\github-actions-course\\03-app-dotnet\\obj\\Debug\\net8.0\\scopedcss\\bundle\\app-dotnet.styles.css"
+      "OriginalItemSpec": "D:\\Projects\\github-actions-course\\03-app-dotnet\\obj\\Debug\\net6.0\\scopedcss\\bundle\\app-dotnet.styles.css"
     },
     {
-      "Identity": "D:\\Projects\\github-actions-course\\03-app-dotnet\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\app-dotnet.bundle.scp.css",
+      "Identity": "D:\\Projects\\github-actions-course\\03-app-dotnet\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\app-dotnet.bundle.scp.css",
       "SourceId": "app-dotnet",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Projects\\github-actions-course\\03-app-dotnet\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Projects\\github-actions-course\\03-app-dotnet\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/app-dotnet",
       "RelativePath": "app-dotnet.bundle.scp.css",
       "AssetKind": "All",
@@ -48,7 +48,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Projects\\github-actions-course\\03-app-dotnet\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\app-dotnet.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Projects\\github-actions-course\\03-app-dotnet\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\app-dotnet.bundle.scp.css"
     },
     {
       "Identity": "D:\\Projects\\github-actions-course\\03-app-dotnet\\wwwroot\\css\\site.css",
